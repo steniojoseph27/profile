@@ -1,0 +1,41 @@
+body {
+    background: url('images/background.jpg') center center no-repeat;
+    background-size:cover;
+}
+
+.cc-profile-image img {
+    position: relative;
+    border: 5px white solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 0.5;
+    margin: 0;
+}
+
+.page-header .container > .content-center {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 880px;
+}
+
+.page-header {
+    height: 100vh;
+    max-height: 1050px;
+    padding: 0;
+    color: #FFFFFF;
+    position: relative;
+} 
+
+.title {
+    transform: rotate(8deg); 
+    font-family: 'Tangerine', serif;
+    font-size: 14px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
